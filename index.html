@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Start Header  -->
+      <div class="sec-container">
+        <div class="head-container">
+          <div class="container">
+            <img src="images/logo.svg" alt="" />
+            <div class="nav-links">
+              <ul class="main-ul">
+                <li>
+                  <div class="links-container" id="links-btn">
+                    <a href="#">Product</a>
+                    <img
+                      src="images/icon-arrow-light.svg"
+                      class="light-arrow"
+                      id="arrow"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mega-menu">
+                    <ul class="product">
+                      <li>Overview</li>
+                      <li>Pricing</li>
+                      <li>Marketplace</li>
+                      <li>Features</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="links-container" id="links-btn">
+                    <a href="#">Company</a>
+                    <img
+                      src="images/icon-arrow-light.svg"
+                      class="light-arrow"
+                      alt=""
+                      id="arrow"
+                    />
+                  </div>
+                  <div class="mega-menu">
+                    <ul class="company">
+                      <li>About</li>
+                      <li>Team</li>
+                      <li>Blog</li>
+                      <li>Careers</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="links-container" id="links-btn">
+                    <a href="#">Connect</a>
+                    <img
+                      src="images/icon-arrow-light.svg"
+                      class="light-arrow"
+                      alt=""
+                      id="arrow"
+                    />
+                  </div>
+                  <div class="mega-menu">
+                    <ul class="connect">
+                      <li>Contact</li>
+                      <li>Newsletter</li>
+                      <li>LinkedIn</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="contact">
+              <a href="#">Login</a>
+              <a href="#">Sign Up</a>
+            </div>
+            <!-- Start Burger Menu  -->
+
+            <div class="burger-icon-container">
+              <img class="burger-icon" src="images/icon-hamburger.svg" alt="" />
+              <img class="close-icon" src="images/icon-close.svg" alt="" />
+
+              <div class="burger-menu">
+                <ul class="burger-ul" id="burger-li">
+                  <li>
+                    <div class="links-container" id="links-btn">
+                      <a class="links-anchor" href="#">Product</a>
+                      <img
+                        src="images/icon-arrow-dark.svg"
+                        class="light-arrow"
+                        id="arrow"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mega-menu">
+                      <ul class="product">
+                        <li>Overview</li>
+                        <li>Pricing</li>
+                        <li>Marketplace</li>
+                        <li>Features</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="links-container" id="links-btn">
+                      <a class="links-anchor" href="#">Company</a>
+                      <img
+                        src="images/icon-arrow-dark.svg"
+                        class="light-arrow"
+                        alt=""
+                        id="arrow"
+                      />
+                    </div>
+                    <div class="mega-menu">
+                      <ul class="company">
+                        <li>About</li>
+                        <li>Team</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="links-container" id="links-btn">
+                      <a class="links-anchor" href="#">Connect</a>
+                      <img
+                        src="images/icon-arrow-dark.svg"
+                        class="light-arrow"
+                        alt=""
+                        id="arrow"
+                      />
+                    </div>
+                    <div class="mega-menu">
+                      <ul class="connect">
+                        <li>Contact</li>
+                        <li>Newsletter</li>
+                        <li>LinkedIn</li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="contact-burger">
+                  <a href="#">Login</a>
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <!-- End Burger Menu  -->
+          </div>
+        </div>
+        <header>
+          <div class="text-container">
+            <h1>A modern publishing platform</h1>
+            <p>Grow your audience and build your online brand</p>
+            <div class="buttons">
+              <button class="start-btn">Start for Free</button>
+              <button class="Learn-btn">Learn More</button>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- End Header  -->
+
+      <!-- Start Editor Section -->
+      <section class="editor-section">
+        <h2>Designed for the future</h2>
+        <div class="container">
+          <div class="editor-container">
+            <div class="info-container">
+              <h3 class="introducing-h3">Introducing an extensible editor</h3>
+              <p class="introducing-p">
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+              <h3 class="robust-h3">Robust content management</h3>
+              <p class="robust-p">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+            <div class="img-container">
+              <img
+                class="editor-desktop"
+                src="images/illustration-editor-desktop.svg"
+                alt=""
+              />
+              <img
+                class="editor-mobile"
+                src="images/illustration-editor-mobile.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ُEnd Editor Section -->
+
+      <!-- Start Phone Section -->
+      <section class="phone-section">
+        <div class="phone-container">
+          <div class="container">
+            <div class="phone-image">
+              <img src="images/illustration-phones.svg" alt="" />
+            </div>
+            <div class="text-info">
+              <h3 class="phone-h3">State of the Art Infrastructure</h3>
+              <p class="phone-p">
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Phone Section -->
+      <!-- Start Laptop Section -->
+      <section class="laptop-section">
+        <div class="container">
+          <div class="lap-image">
+            <img
+              class="laptop-desktop"
+              src="images/illustration-laptop-desktop.svg"
+              alt=""
+            />
+            <img
+              class="laptop-mobile"
+              src="images/illustration-laptop-mobile.svg"
+              alt=""
+            />
+          </div>
+          <div class="text-container">
+            <h3>Free, open, simple</h3>
+            <p>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+            <h3>Powerful tooling</h3>
+            <p>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Laptop Section -->
+    </main>
+
+    <!-- Start footer -->
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <div class="footer-container">
+          <div class="box">
+            <h3>Product</h3>
+            <ul>
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Company</h3>
+            <ul>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Connect</h3>
+            <ul>
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Muhammad-ElShenawy" target="_blank"
+          >Muhammad El-Shenawy</a
+        >.
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- JavaScript File  -->
+    <script src="main.js"></script>
+  </body>
+</html>
