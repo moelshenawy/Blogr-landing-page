@@ -482,7 +482,7 @@ header .text-container .buttons .Learn-btn:hover {
 }
 .phone-section .phone-image img {
   position: relative;
-  top: -100px;
+  top: -11px;
 }
 @media (max-width: 990px) {
   .phone-section .phone-image img {
