@@ -75,7 +75,7 @@ a {
 
 /* Start Header */
 .sec-container {
-  background-image: url("../images/bg-pattern-intro-desktop.svg"),
+  background-image: url("./images/bg-pattern-intro-desktop.svg"),
     linear-gradient(to bottom, var(--very-light-red), var(--light-red));
   background-repeat: no-repeat;
   background-size: 100%;
