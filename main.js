@@ -1,9 +1,9 @@
 // Define Global Variables
-let linksBtn = document.querySelectorAll("#links-btn");
-let arrows = document.querySelectorAll("#arrow");
+let linksBtn = document.querySelectorAll(".links-container");
+let arrows = document.querySelectorAll(".arrow");
 let menus = document.querySelectorAll(".mega-menu");
 let linksText = document.querySelectorAll(".links-anchor");
-let burgerBtn = document.querySelectorAll(".burger-icon-container #links-btn");
+let burgerBtn = document.querySelectorAll(".burger-icon-container ");
 let burgerIconOpen = document.querySelector(".burger-icon");
 let burgerIconClose = document.querySelector(".close-icon");
 let burgerMenu = document.querySelector(".burger-menu");

@@ -112,11 +112,11 @@ a {
   color: var(--grayish-blue);
   font-family: "Ubuntu", sans-serif;
 }
-#arrow {
+.arrow {
   margin-left: 10px;
   transition: 0.3s;
 }
-#arrow.active {
+.arrow.active {
   transform: rotate(180deg);
 }
 
